@@ -1,0 +1,171 @@
+[
+    {
+        "design_name": "CPU",
+        "children": [
+            {
+                "design_version": "version1",
+                "data": [
+                    {
+                        "table_name": "table1",
+                        "list": [
+                            {
+                                "stage": "s1",
+                                "stdNum": 100,
+                                "memNum": 130,
+                                "macroNmu": 300,
+                                "stdArea": 10,
+                                "memArea": 100,
+                                "macroArea": 1600,
+                                "staUti": 150,
+                                "designUti": 150
+                            },
+                            {
+                                "stage": "s3",
+                                "stdNum": 100,
+                                "memNum": 100,
+                                "macroNmu": 100,
+                                "stdArea": 13300,
+                                "memArea": 10440,
+                                "macroArea": 100,
+                                "staUti": 10440,
+                                "designUti": 1050
+                            },
+                            {
+                                "stage": "s3",
+                                "stdNum": 100,
+                                "memNum": 1005,
+                                "macroNmu": 1040,
+                                "stdArea": 1030,
+                                "memArea": 1060,
+                                "macroArea": 100,
+                                "staUti": 10,
+                                "designUti": 1030
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "table2",
+                        "list": [
+                            {
+                                "stage": "s1",
+                                "vt1": 100,
+                                "vt2": 130,
+                                "vt3": 300,
+                                "vt4": 10,
+                                "vt5": 100,
+                                "vt6": 1600,
+                                "vt7": 150,
+                                "vt8": 150,
+                                "vt9": 150
+                            },
+                            {
+                                "stage": "s2",
+                                "vt1": 100,
+                                "vt2": 130,
+                                "vt3": 300,
+                                "vt4": 10,
+                                "vt5": 100,
+                                "vt6": 9600,
+                                "vt7": 650,
+                                "vt8": 450,
+                                "vt9": 250
+                            },
+                            {
+                                "stage": "s3",
+                                "vt1": 100,
+                                "vt2": 30,
+                                "vt3": 30,
+                                "vt4": 108,
+                                "vt5": 10,
+                                "vt6": 100,
+                                "vt7": 10,
+                                "vt8": 10,
+                                "vt9": 130
+                            }
+                        ]
+                    },
+                    {
+                        "table_name": "table3",
+                        "list": [
+                            {
+                                "group_name": "group1",
+                                "chilren": [
+                                    {
+                                        "stage": "s1",
+                                        "wns": 100,
+                                        "nvp": 13,
+                                        "tns": 200
+                                    },
+                                    {
+                                        "stage": "s2",
+                                        "wns": 100,
+                                        "nvp": 10,
+                                        "tns": 500
+                                    },
+                                    {
+                                        "stage": "s3",
+                                        "wns": 100,
+                                        "nvp": 130,
+                                        "tns": 700
+                                    }
+                                ]
+                            },
+                            {
+                                "group_name": "group2",
+                                "chilren": [
+                                    {
+                                        "stage": "s1",
+                                        "wns2": 100,
+                                        "nvp3": 13,
+                                        "tns4": 200
+                                    },
+                                    {
+                                        "stage": "s2",
+                                        "wns2": 100,
+                                        "nvp3": 10,
+                                        "tns4": 500
+                                    },
+                                    {
+                                        "stage": "s3",
+                                        "wns2": 100,
+                                        "nvp3": 130,
+                                        "tns4": 700
+                                    }
+                                ]
+                            },
+                            {
+                                "group_name": "group3",
+                                "chilren": [
+                                    {
+                                        "stage": "s1",
+                                        "wns5": 100,
+                                        "nvp6": 13,
+                                        "tns7": 200
+                                    },
+                                    {
+                                        "stage": "s2",
+                                        "wns5": 100,
+                                        "nvp6": 10,
+                                        "tns7": 500
+                                    },
+                                    {
+                                        "stage": "s3",
+                                        "wns5": 100,
+                                        "nvp6": 130,
+                                        "tns7": 700
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "design_version": "version2"
+            }
+        ]
+    },
+    {
+        "design_name": "DSP"
+    }
+]

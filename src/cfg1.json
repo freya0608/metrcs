@@ -1,0 +1,582 @@
+{
+    "CPU": {
+        "version1": {
+            "table1": [
+                {
+                    "stage": "s1",
+                    "stdNum": 100,
+                    "memNum": 130,
+                    "macroNmu": 300,
+                    "stdArea": 10,
+                    "memArea": 100,
+                    "macroArea": 1600,
+                    "staUti": 150,
+                    "designUti": 150
+                },
+                {
+                    "stage": "s2",
+                    "stdNum": 100,
+                    "memNum": 100,
+                    "macroNmu": 100,
+                    "stdArea": 13300,
+                    "memArea": 10440,
+                    "macroArea": 100,
+                    "staUti": 10440,
+                    "designUti": 1050
+                }
+            ],
+            "table2": [
+                {
+                    "stage": "s1",
+                    "vt1": 100,
+                    "vt2": 130,
+                    "vt3": 300,
+                    "vt4": 10,
+                    "vt5": 100,
+                    "vt6": 1600,
+                    "vt7": 150,
+                    "vt8": 150,
+                    "vt9": 150
+                },
+                {
+                    "stage": "s2",
+                    "vt1": 100,
+                    "vt2": 130,
+                    "vt3": 300,
+                    "vt4": 10,
+                    "vt5": 100,
+                    "vt6": 9600,
+                    "vt7": 650,
+                    "vt8": 450,
+                    "vt9": 250
+                },
+                {
+                    "stage": "s3",
+                    "vt1": 100,
+                    "vt2": 30,
+                    "vt3": 30,
+                    "vt4": 108,
+                    "vt5": 10,
+                    "vt6": 100,
+                    "vt7": 10,
+                    "vt8": 10,
+                    "vt9": 130
+                }
+            ],
+            "table3": [
+                {
+                    "stage": "s1",
+                    "group1": {
+                        "wns": 100,
+                        "nvp": 13,
+                        "tns": 200
+                    },
+                    "group2": {
+                        "wns2": 100,
+                        "nvp3": 13,
+                        "tns4": 200
+                    },
+                    "group3": {
+                        "wns5": 100,
+                        "nvp6": 13,
+                        "tns7": 200
+                    }
+                },
+                {
+                    "stage": "s2",
+                    "group1": {
+                        "wns": 100,
+                        "nvp": 13,
+                        "tns": 200
+                    },
+                    "group2": {
+                        "wns2": 100,
+                        "nvp3": 13,
+                        "tns4": 200
+                    },
+                    "group3": {
+                        "wns5": 100,
+                        "nvp6": 13,
+                        "tns7": 200
+                    }
+                },
+                {
+                    "stage": "s3",
+                    "group1": {
+                        "wns": 1300,
+                        "nvp": 136,
+                        "tns": 2050
+                    },
+                    "group2": {
+                        "wns2": 1400,
+                        "nvp3": 13,
+                        "tns4": 2500
+                    },
+                    "group3": {
+                        "wns5": 100,
+                        "nvp6": 13,
+                        "tns7": 2600
+                    }
+                }
+            ],
+            "img": [
+                "https://img0.baidu.com/it/u=1263503209,2981794169&fm=26&fmt=auto&gp=0.jpg",
+                "https://img0.baidu.com/it/u=3513761006,2427970649&fm=26&fmt=auto&gp=0.jpg"
+            ]
+        },
+        "version2": {
+            "table1": [
+                {
+                    "stage": "s1",
+                    "stdNum": 100,
+                    "memNum": 130,
+                    "macroNmu": 30,
+                    "stdArea": 10,
+                    "memArea": 100,
+                    "macroArea": 100,
+                    "staUti": 150,
+                    "designUti": 10
+                },
+                {
+                    "stage": "s2",
+                    "stdNum": 300,
+                    "memNum": 100,
+                    "macroNmu": 100,
+                    "stdArea": 13300,
+                    "memArea": 10440,
+                    "macroArea": 100,
+                    "staUti": 10440,
+                    "designUti": 1000
+                },
+                {
+                    "stage": "s3",
+                    "stdNum": 300,
+                    "memNum": 100,
+                    "macroNmu": 100,
+                    "stdArea": 13300,
+                    "memArea": 10440,
+                    "macroArea": 100,
+                    "staUti": 10440,
+                    "designUti": 1000
+                }
+            ],
+            "table2": [
+                {
+                    "stage": "s1",
+                    "vt1": 100,
+                    "vt2": 10,
+                    "vt3": 300,
+                    "vt4": 10,
+                    "vt5": 100,
+                    "vt6": 1600,
+                    "vt7": 150,
+                    "vt8": 150,
+                    "vt9": 150
+                },
+                {
+                    "stage": "s2",
+                    "vt1": 100,
+                    "vt2": 130,
+                    "vt3": 300,
+                    "vt4": 10,
+                    "vt5": 100,
+                    "vt6": 9600,
+                    "vt7": 650,
+                    "vt8": 450,
+                    "vt9": 250
+                },
+                {
+                    "stage": "s3",
+                    "vt1": 100,
+                    "vt2": 30,
+                    "vt3": 30,
+                    "vt4": 108,
+                    "vt5": 10,
+                    "vt6": 100,
+                    "vt7": 10,
+                    "vt8": 10,
+                    "vt9": 130
+                }
+            ],
+            "table3": [
+                {
+                    "stage": "s1",
+                    "group1": {
+                        "wns": 100,
+                        "nvp": 13,
+                        "tns": 200
+                    },
+                    "group2": {
+                        "wns2": 100,
+                        "nvp3": 13,
+                        "tns4": 200
+                    },
+                    "group3": {
+                        "wns5": 100,
+                        "nvp6": 13,
+                        "tns7": 200
+                    }
+                },
+                {
+                    "stage": "s2",
+                    "group1": {
+                        "wns": 100,
+                        "nvp": 13,
+                        "tns": 200
+                    },
+                    "group2": {
+                        "wns2": 100,
+                        "nvp3": 13,
+                        "tns4": 200
+                    },
+                    "group3": {
+                        "wns5": 100,
+                        "nvp6": 13,
+                        "tns7": 200
+                    }
+                }
+            ]
+        }
+    },
+    "DSP": {
+        "version1": {
+            "table1": [
+                {
+                    "stage": "s1",
+                    "stdNum": 100,
+                    "memNum": 130,
+                    "macroNmu": 30,
+                    "stdArea": 10,
+                    "memArea": 100,
+                    "macroArea": 100,
+                    "staUti": 150,
+                    "designUti": 10
+                },
+                {
+                    "stage": "s2",
+                    "stdNum": 300,
+                    "memNum": 100,
+                    "macroNmu": 100,
+                    "stdArea": 13300,
+                    "memArea": 10440,
+                    "macroArea": 100,
+                    "staUti": 10440,
+                    "designUti": 1000
+                },
+                {
+                    "stage": "s3",
+                    "stdNum": 300,
+                    "memNum": 100,
+                    "macroNmu": 100,
+                    "stdArea": 13300,
+                    "memArea": 10440,
+                    "macroArea": 100,
+                    "staUti": 10440,
+                    "designUti": 1000
+                }
+            ],
+            "table2": [
+                {
+                    "stage": "s1",
+                    "vt1": 100,
+                    "vt2": 10,
+                    "vt3": 300,
+                    "vt4": 10,
+                    "vt5": 100,
+                    "vt6": 1600,
+                    "vt7": 150,
+                    "vt8": 150,
+                    "vt9": 150
+                },
+                {
+                    "stage": "s2",
+                    "vt1": 100,
+                    "vt2": 130,
+                    "vt3": 300,
+                    "vt4": 10,
+                    "vt5": 100,
+                    "vt6": 9600,
+                    "vt7": 650,
+                    "vt8": 450,
+                    "vt9": 250
+                },
+                {
+                    "stage": "s3",
+                    "vt1": 100,
+                    "vt2": 30,
+                    "vt3": 30,
+                    "vt4": 108,
+                    "vt5": 10,
+                    "vt6": 100,
+                    "vt7": 10,
+                    "vt8": 10,
+                    "vt9": 130
+                }
+            ],
+            "table3": [
+                {
+                    "stage": "s1",
+                    "group1": {
+                        "wns": 100,
+                        "nvp": 13,
+                        "tns": 200
+                    },
+                    "group2": {
+                        "wns2": 100,
+                        "nvp3": 13,
+                        "tns4": 200
+                    },
+                    "group3": {
+                        "wns5": 100,
+                        "nvp6": 13,
+                        "tns7": 200
+                    }
+                },
+                {
+                    "stage": "s2",
+                    "group1": {
+                        "wns": 100,
+                        "nvp": 13,
+                        "tns": 200
+                    },
+                    "group2": {
+                        "wns2": 100,
+                        "nvp3": 13,
+                        "tns4": 200
+                    },
+                    "group3": {
+                        "wns5": 100,
+                        "nvp6": 13,
+                        "tns7": 200
+                    }
+                }
+            ]
+        },
+        "version2": {
+            "table1": [
+                {
+                    "stage": "s1",
+                    "stdNum": 100,
+                    "memNum": 130,
+                    "macroNmu": 30,
+                    "stdArea": 10,
+                    "memArea": 100,
+                    "macroArea": 100,
+                    "staUti": 150,
+                    "designUti": 10
+                },
+                {
+                    "stage": "s2",
+                    "stdNum": 300,
+                    "memNum": 100,
+                    "macroNmu": 100,
+                    "stdArea": 13300,
+                    "memArea": 10440,
+                    "macroArea": 100,
+                    "staUti": 10440,
+                    "designUti": 1000
+                },
+                {
+                    "stage": "s3",
+                    "stdNum": 300,
+                    "memNum": 100,
+                    "macroNmu": 100,
+                    "stdArea": 13300,
+                    "memArea": 10440,
+                    "macroArea": 100,
+                    "staUti": 10440,
+                    "designUti": 1000
+                }
+            ],
+            "table2": [
+                {
+                    "stage": "s1",
+                    "vt1": 100,
+                    "vt2": 10,
+                    "vt3": 300,
+                    "vt4": 10,
+                    "vt5": 100,
+                    "vt6": 1600,
+                    "vt7": 150,
+                    "vt8": 150,
+                    "vt9": 150
+                },
+                {
+                    "stage": "s2",
+                    "vt1": 100,
+                    "vt2": 130,
+                    "vt3": 300,
+                    "vt4": 10,
+                    "vt5": 100,
+                    "vt6": 9600,
+                    "vt7": 650,
+                    "vt8": 450,
+                    "vt9": 250
+                },
+                {
+                    "stage": "s3",
+                    "vt1": 100,
+                    "vt2": 30,
+                    "vt3": 30,
+                    "vt4": 108,
+                    "vt5": 10,
+                    "vt6": 100,
+                    "vt7": 10,
+                    "vt8": 10,
+                    "vt9": 130
+                }
+            ],
+            "table3": [
+                {
+                    "stage": "s1",
+                    "group1": {
+                        "wns": 100,
+                        "nvp": 13,
+                        "tns": 200
+                    },
+                    "group2": {
+                        "wns2": 100,
+                        "nvp3": 13,
+                        "tns4": 200
+                    },
+                    "group3": {
+                        "wns5": 100,
+                        "nvp6": 13,
+                        "tns7": 200
+                    }
+                },
+                {
+                    "stage": "s2",
+                    "group1": {
+                        "wns": 100,
+                        "nvp": 13,
+                        "tns": 200
+                    },
+                    "group2": {
+                        "wns2": 100,
+                        "nvp3": 13,
+                        "tns4": 200
+                    },
+                    "group3": {
+                        "wns5": 100,
+                        "nvp6": 13,
+                        "tns7": 200
+                    }
+                }
+            ]
+        },
+        "version3": {
+            "table1": [
+                {
+                    "stage": "s1",
+                    "stdNum": 100,
+                    "memNum": 130,
+                    "macroNmu": 30,
+                    "stdArea": 10,
+                    "memArea": 100,
+                    "macroArea": 100,
+                    "staUti": 150,
+                    "designUti": 10
+                },
+                {
+                    "stage": "s2",
+                    "stdNum": 300,
+                    "memNum": 100,
+                    "macroNmu": 100,
+                    "stdArea": 13300,
+                    "memArea": 10440,
+                    "macroArea": 100,
+                    "staUti": 10440,
+                    "designUti": 1000
+                },
+                {
+                    "stage": "s3",
+                    "stdNum": 300,
+                    "memNum": 100,
+                    "macroNmu": 100,
+                    "stdArea": 13300,
+                    "memArea": 10440,
+                    "macroArea": 100,
+                    "staUti": 10440,
+                    "designUti": 1000
+                }
+            ],
+            "table2": [
+                {
+                    "stage": "s1",
+                    "vt1": 100,
+                    "vt2": 10,
+                    "vt3": 300,
+                    "vt4": 10,
+                    "vt5": 100,
+                    "vt6": 1600,
+                    "vt7": 150,
+                    "vt8": 150,
+                    "vt9": 150
+                },
+                {
+                    "stage": "s2",
+                    "vt1": 100,
+                    "vt2": 130,
+                    "vt3": 300,
+                    "vt4": 10,
+                    "vt5": 100,
+                    "vt6": 9600,
+                    "vt7": 650,
+                    "vt8": 450,
+                    "vt9": 250
+                },
+                {
+                    "stage": "s3",
+                    "vt1": 100,
+                    "vt2": 30,
+                    "vt3": 30,
+                    "vt4": 108,
+                    "vt5": 10,
+                    "vt6": 100,
+                    "vt7": 10,
+                    "vt8": 10,
+                    "vt9": 130
+                }
+            ],
+            "table3": [
+                {
+                    "stage": "s1",
+                    "group1": {
+                        "wns": 100,
+                        "nvp": 13,
+                        "tns": 200
+                    },
+                    "group2": {
+                        "wns2": 100,
+                        "nvp3": 13,
+                        "tns4": 200
+                    },
+                    "group3": {
+                        "wns5": 100,
+                        "nvp6": 13,
+                        "tns7": 200
+                    }
+                },
+                {
+                    "stage": "s2",
+                    "group1": {
+                        "wns": 100,
+                        "nvp": 13,
+                        "tns": 200
+                    },
+                    "group2": {
+                        "wns2": 100,
+                        "nvp3": 13,
+                        "tns4": 200
+                    },
+                    "group3": {
+                        "wns5": 100,
+                        "nvp6": 13,
+                        "tns7": 200
+                    }
+                }
+            ]
+        }
+    }
+}
