@@ -1,9 +1,8 @@
-import json from './cfg.json';
 import json1 from './cfg1.json';
 import _, { random } from 'lodash'
 import React from 'react';
 import { Menu, Table, Layout, Image } from 'antd';
-import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
+// import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 import 'antd/dist/antd.css';
 const { SubMenu } = Menu;
 const { Header, Content, Footer, Sider } = Layout;
@@ -139,7 +138,9 @@ class App extends React.Component {
           >
             {
               _.map(menu_arr, (item, idx) => {
-                return <SubMenu key={item.menu} icon={<AppstoreOutlined />} title={item.menu}>
+                return <SubMenu key={item.menu}
+                  // icon={<AppstoreOutlined />  }
+                  title={item.menu}>
                   {
                     _.map(item?.submenu, (ii, number) => {
                       return <Menu.Item key={item.menu + '_' + ii} >{ii}</Menu.Item>
