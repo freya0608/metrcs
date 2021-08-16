@@ -1,0 +1,113 @@
+[
+    {
+        "CPU": {
+            "version1": {
+                "table1": {
+                    "stage": "s1",
+                    "stdNum": 100,
+                    "memNum": 130,
+                    "macroNmu": 300,
+                    "stdArea": 10,
+                    "memArea": 100,
+                    "macroArea": 1600,
+                    "staUti": 150,
+                    "designUti": 150
+                },
+                "table2": {
+                    "stage": "s1",
+                    "vt1": 100,
+                    "vt2": 130,
+                    "vt3": 300,
+                    "vt4": 10,
+                    "vt5": 100,
+                    "vt6": 1600,
+                    "vt7": 150,
+                    "vt8": 150,
+                    "vt9": 150
+                },
+                "table3": {
+                    "stage": "s1",
+                    "group1": {
+                        "wns": 100,
+                        "nvp": 13,
+                        "tns": 200
+                    },
+                    "group2": {
+                        "wns2": 100,
+                        "nvp3": 13,
+                        "tns4": 200
+                    },
+                    "group3": {
+                        "wns5": 100,
+                        "nvp6": 13,
+                        "tns7": 200
+                    }
+                }
+            }
+        }
+    },
+    {
+        "CPU": {
+            "version1": {
+                "table1": {
+                    "stage": "s2",
+                    "stdNum": 100,
+                    "memNum": 130,
+                    "macroNmu": 300,
+                    "stdArea": 10,
+                    "memArea": 100,
+                    "macroArea": 1600,
+                    "staUti": 150,
+                    "designUti": 150
+                },
+                "table2": {
+                    "stage": "s2",
+                    "vt1": 100,
+                    "vt2": 130,
+                    "vt3": 300,
+                    "vt4": 10,
+                    "vt5": 100,
+                    "vt6": 1600,
+                    "vt7": 150,
+                    "vt8": 150,
+                    "vt9": 150
+                },
+                "table3": {
+                    "stage": "s2",
+                    "group1": {
+                        "wns": 100,
+                        "nvp": 13,
+                        "tns": 200
+                    },
+                    "group2": {
+                        "wns2": 100,
+                        "nvp3": 13,
+                        "tns4": 200
+                    },
+                    "group3": {
+                        "wns5": 100,
+                        "nvp6": 13,
+                        "tns7": 200
+                    }
+                }
+            }
+        }
+    },
+    {
+        "DSP": {
+            "version1": {
+                "table1": {
+                    "stage": "s1",
+                    "stdNum": 100,
+                    "memNum": 130,
+                    "macroNmu": 300,
+                    "stdArea": 10,
+                    "memArea": 100,
+                    "macroArea": 1600,
+                    "staUti": 150,
+                    "designUti": 150
+                }
+            }
+        }
+    }
+]
