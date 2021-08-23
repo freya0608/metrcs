@@ -368,22 +368,20 @@ class App extends React.Component {
           </Card>
 
 
-          {
-            _.map(imgs_result, (i) => {
-              return <Image.PreviewGroup>
-                <Image
+
+          <Image.PreviewGroup>
+            {
+              _.map(imgs_result, (i) => {
+                return <Image
                   style={{ display: 'inline-block' }}
                   width={200}
                   key={i}
                   src={i}
                 />
-              </Image.PreviewGroup>
-
-            })
-          }
-
+              })
+            }
+          </Image.PreviewGroup>
         </Layout>
-
       </Layout>
     );
   }
