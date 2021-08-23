@@ -14,3 +14,11 @@ code {
 .ant-table-tbody > tr > td{
   padding: 2px !important;
 }
+.colStyle{
+  border-left: 1px solid black;
+
+}
+/* .ant-table-measure-row{
+  height: 0;
+  display: inline-block;
+} */

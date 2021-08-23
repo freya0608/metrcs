@@ -1,0 +1,572 @@
+[
+    {
+        "CPU": {
+            "version1": {
+                "owner": "zhangsan",
+                "date": "2021/08/16 20:01",
+                "basic_information": [
+                    {
+                        "stage": "floorplan",
+                        "stdNum": 1100,
+                        "memNum": 1200,
+                        "macroNum": 1300,
+                        "stdArea": 2100,
+                        "memArea": 2200,
+                        "macroArea": 2300,
+                        "stdUti": "50%",
+                        "designUti": "60%"
+                    }
+                ],
+                "vt_ratio": [
+                    {
+                        "stage": "floorplan",
+                        "24P96CPD": "15%",
+                        "20P96CPD": "10%",
+                        "16P96CPD": "5%",
+                        "24P96CPDLVT": "10%",
+                        "20P96CPDLVT": "10%",
+                        "16P96CPDLVT": "20%",
+                        "24P96CPDULVT": "5%",
+                        "20P96CPDULVT": "10%",
+                        "16P96CPDULVT": "15%"
+                    }
+                ],
+                "timing_information": [
+                    {
+                        "stage": "floorplan",
+                        "reg2reg": {
+                            "WNS": -0.15,
+                            "NVP": 1300,
+                            "TNS": -10.6
+                        },
+                        "in2reg": {
+                            "WNS": -1.02,
+                            "NVP": 13,
+                            "TNS": -200
+                        },
+                        "reg2out": {
+                            "WNS": -2.03,
+                            "NVP": 130,
+                            "TNS": -300
+                        }
+                    }
+                ],
+                "img": [
+                    {
+                        "floorplan": "https://img0.baidu.com/it/u=1263503209,2981794169&fm=26&fmt=auto&gp=0.jpg"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "CPU": {
+            "version1": {
+                "owner": "zhangsan",
+                "date": "2021/08/16 20:11",
+                "basic_information": [
+                    {
+                        "stage": "place",
+                        "stdNum": 1101,
+                        "memNum": 1201,
+                        "macroNum": 1301,
+                        "stdArea": 2101,
+                        "memArea": 2201,
+                        "macroArea": 2301,
+                        "stdUti": "51%",
+                        "designUti": "61%"
+                    }
+                ],
+                "vt_ratio": [
+                    {
+                        "stage": "place",
+                        "24P96CPD": "10%",
+                        "20P96CPD": "10%",
+                        "16P96CPD": "20%",
+                        "24P96CPDLVT": "15%",
+                        "20P96CPDLVT": "10%",
+                        "16P96CPDLVT": "5%",
+                        "24P96CPDULVT": "5%",
+                        "20P96CPDULVT": "10%",
+                        "16P96CPDULVT": "15%"
+                    }
+                ],
+                "timing_information": [
+                    {
+                        "stage": "place",
+                        "reg2reg": {
+                            "WNS": -0.16,
+                            "NVP": 1301,
+                            "TNS": -10.7
+                        },
+                        "in2reg": {
+                            "WNS": -1.03,
+                            "NVP": 14,
+                            "TNS": -201
+                        },
+                        "reg2out": {
+                            "WNS": -2.04,
+                            "NVP": 131,
+                            "TNS": -301
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "CPU": {
+            "version1": {
+                "owner": "zhangsan",
+                "date": "2021/08/16 20:21",
+                "basic_information": [
+                    {
+                        "stage": "cts",
+                        "stdNum": 1102,
+                        "memNum": 1202,
+                        "macroNum": 1302,
+                        "stdArea": 2102,
+                        "memArea": 2202,
+                        "macroArea": 2302,
+                        "stdUti": "52%",
+                        "designUti": " 62%"
+                    }
+                ],
+                "vt_ratio": [
+                    {
+                        "stage": "cts",
+                        "24P96CPD": "15%",
+                        "20P96CPD": "10%",
+                        "16P96CPD": "5%",
+                        "24P96CPDLVT": "5%",
+                        "20P96CPDLVT": "10%",
+                        "16P96CPDLVT": "15%",
+                        "24P96CPDULVT": "10%",
+                        "20P96CPDULVT": "10%",
+                        "16P96CPDULVT": "20%"
+                    }
+                ],
+                "timing_information": [
+                    {
+                        "stage": "cts",
+                        "reg2reg": {
+                            "WNS": -0.152,
+                            "NVP": 1302,
+                            "TNS": -10.62
+                        },
+                        "in2reg": {
+                            "WNS": -1.022,
+                            "NVP": 132,
+                            "TNS": -202
+                        },
+                        "reg2out": {
+                            "WNS": -2.032,
+                            "NVP": 132,
+                            "TNS": -302
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "CPU": {
+            "version1": {
+                "owner": "zhangsan",
+                "date": "2021/08/16 20:31",
+                "basic_information": [
+                    {
+                        "stage": "route",
+                        "stdNum": 1103,
+                        "memNum": 1203,
+                        "macroNum": 1303,
+                        "stdArea": 2103,
+                        "memArea": 2203,
+                        "macroArea": 2303,
+                        "stdUti": " 53%",
+                        "designUti": "63%"
+                    }
+                ],
+                "vt_ratio": [
+                    {
+                        "stage": "route",
+                        "24P96CPD": "15%",
+                        "20P96CPD": "10%",
+                        "16P96CPD": "5%",
+                        "24P96CPDLVT": "10%",
+                        "20P96CPDLVT": "10%",
+                        "16P96CPDLVT": "20%",
+                        "24P96CPDULVT": "5%",
+                        "20P96CPDULVT": "10%",
+                        "16P96CPDULVT": "15%"
+                    }
+                ],
+                "timing_information": [
+                    {
+                        "stage": "route",
+                        "reg2reg": {
+                            "WNS": -0.154,
+                            "NVP": 1304,
+                            "TNS": -10.64
+                        },
+                        "in2reg": {
+                            "WNS": -1.024,
+                            "NVP": 134,
+                            "TNS": -204
+                        },
+                        "reg2out": {
+                            "WNS": -2.034,
+                            "NVP": 1304,
+                            "TNS": -3004
+                        }
+                    }
+                ],
+                "img": [
+                    {
+                        "route": "https://img0.baidu.com/it/u=3513761006,2427970649&fm=26&fmt=auto&gp=0.jpg"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "CPU": {
+            "version1": {
+                "owner": "zhangsan",
+                "date": "2021/08/16 20:41",
+                "basic_information": [
+                    {
+                        "stage": "postRoute",
+                        "stdNum": 1105,
+                        "memNum": 1205,
+                        "macroNum": 1305,
+                        "stdArea": 2105,
+                        "memArea": 2205,
+                        "macroArea": 2305,
+                        "stdUti": "55%",
+                        "designUti": "65%"
+                    }
+                ],
+                "vt_ratio": [
+                    {
+                        "stage": "postRoute",
+                        "24P96CPD": "1%",
+                        "20P96CPD": "1%",
+                        "16P96CPD": "1%",
+                        "24P96CPDLVT": "1%",
+                        "20P96CPDLVT": "1%",
+                        "16P96CPDLVT": "2%",
+                        "24P96CPDULVT": "1%",
+                        "20P96CPDULVT": "1%",
+                        "16P96CPDULVT": "1%"
+                    }
+                ],
+                "timing_information": [
+                    {
+                        "stage": "postRoute",
+                        "reg2reg": {
+                            "WNS": -0.155,
+                            "NVP": 1305,
+                            "TNS": -10.65
+                        },
+                        "in2reg": {
+                            "WNS": -1.025,
+                            "NVP": 135,
+                            "TNS": -205
+                        },
+                        "reg2out": {
+                            "WNS": -2.035,
+                            "NVP": 1305,
+                            "TNS": -3005
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "CPU": {
+            "version2": {
+                "owner": "zhangsan",
+                "date": "2021/08/16 21:01",
+                "basic_information": [
+                    {
+                        "stage": "floorplan",
+                        "stdNum": 2100,
+                        "memNum": 2200,
+                        "macroNum": 2300,
+                        "stdArea": 3100,
+                        "memArea": 3200,
+                        "macroArea": 3300,
+                        "stdUti": "50%",
+                        "designUti": "60%"
+                    }
+                ],
+                "vt_ratio": [
+                    {
+                        "stage": "floorplan",
+                        "24P96CPD": "2%",
+                        "20P96CPD": "2%",
+                        "16P96CPD": "2%",
+                        "24P96CPDLVT": "2%",
+                        "20P96CPDLVT": "2%",
+                        "16P96CPDLVT": "2%",
+                        "24P96CPDULVT": "2%",
+                        "20P96CPDULVT": "2%",
+                        "16P96CPDULVT": "2%"
+                    }
+                ],
+                "timing_information": [
+                    {
+                        "stage": "floorplan",
+                        "reg2reg": {
+                            "WNS": -0.215,
+                            "NVP": 2300,
+                            "TNS": -20.6
+                        },
+                        "in2reg": {
+                            "WNS": -2.02,
+                            "NVP": 23,
+                            "TNS": -200
+                        },
+                        "reg2out": {
+                            "WNS": -2.03,
+                            "NVP": 230,
+                            "TNS": -200
+                        }
+                    }
+                ],
+                "img": [
+                    {
+                        "floorplan": "https://img0.baidu.com/it/u=1263503209,2981794169&fm=26&fmt=auto&gp=0.jpg"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "CPU": {
+            "version2": {
+                "owner": "zhangsan",
+                "date": "2021/08/16 21:11",
+                "basic_information": [
+                    {
+                        "stage": "place",
+                        "stdNum": 1101,
+                        "memNum": 1201,
+                        "macroNum": 1301,
+                        "stdArea": 2101,
+                        "memArea": 2201,
+                        "macroArea": 2301,
+                        "stdUti": "51%",
+                        "designUti": "61%"
+                    }
+                ],
+                "vt_ratio": [
+                    {
+                        "stage": "place",
+                        "24P96CPD": "10%",
+                        "20P96CPD": "10%",
+                        "16P96CPD": "20%",
+                        "24P96CPDLVT": "15%",
+                        "20P96CPDLVT": "10%",
+                        "16P96CPDLVT": "5%",
+                        "24P96CPDULVT": "5%",
+                        "20P96CPDULVT": "10%",
+                        "16P96CPDULVT": "15%"
+                    }
+                ],
+                "timing_information": [
+                    {
+                        "stage": "place",
+                        "reg2reg": {
+                            "WNS": -0.16,
+                            "NVP": 1301,
+                            "TNS": -10.7
+                        },
+                        "in2reg": {
+                            "WNS": -1.03,
+                            "NVP": 14,
+                            "TNS": -201
+                        },
+                        "reg2out": {
+                            "WNS": -2.04,
+                            "NVP": 131,
+                            "TNS": -301
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "CPU": {
+            "version2": {
+                "owner": "zhangsan",
+                "date": "2021/08/16 21:21",
+                "basic_information": [
+                    {
+                        "stage": "cts",
+                        "stdNum": 1102,
+                        "memNum": 1202,
+                        "macroNum": 1302,
+                        "stdArea": 2102,
+                        "memArea": 2202,
+                        "macroArea": 2302,
+                        "stdUti": "52%",
+                        "designUti": "62%"
+                    }
+                ],
+                "vt_ratio": [
+                    {
+                        "stage": "cts",
+                        "24P96CPD": "15%",
+                        "20P96CPD": "10%",
+                        "16P96CPD": "5%",
+                        "24P96CPDLVT": "5%",
+                        "20P96CPDLVT": "10%",
+                        "16P96CPDLVT": "15%",
+                        "24P96CPDULVT": " 10%",
+                        "20P96CPDULVT": "10%",
+                        "16P96CPDULVT": " 20%"
+                    }
+                ],
+                "timing_information": [
+                    {
+                        "stage": "cts",
+                        "reg2reg": {
+                            "WNS": -0.152,
+                            "NVP": 1302,
+                            "TNS": -10.62
+                        },
+                        "in2reg": {
+                            "WNS": -1.022,
+                            "NVP": 132,
+                            "TNS": -202
+                        },
+                        "reg2out": {
+                            "WNS": -2.032,
+                            "NVP": 132,
+                            "TNS": -302
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "CPU": {
+            "version2": {
+                "owner": "zhangsan",
+                "date": "2021/08/16 21:31",
+                "basic_information": [
+                    {
+                        "stage": "route",
+                        "stdNum": 1103,
+                        "memNum": 1203,
+                        "macroNum": 1303,
+                        "stdArea": 2103,
+                        "memArea": 2203,
+                        "macroArea": 2303,
+                        "stdUti": " 53%",
+                        "designUti": "63%"
+                    }
+                ],
+                "vt_ratio": [
+                    {
+                        "stage": "route",
+                        "24P96CPD": "15%",
+                        "20P96CPD": "10%",
+                        "16P96CPD": "5%",
+                        "24P96CPDLVT": "10%",
+                        "20P96CPDLVT": "10%",
+                        "16P96CPDLVT": "20%",
+                        "24P96CPDULVT": "5%",
+                        "20P96CPDULVT": "10%",
+                        "16P96CPDULVT": "15%"
+                    }
+                ],
+                "timing_information": [
+                    {
+                        "stage": "route",
+                        "reg2reg": {
+                            "WNS": -0.154,
+                            "NVP": 1304,
+                            "TNS": -10.64
+                        },
+                        "in2reg": {
+                            "WNS": -1.024,
+                            "NVP": 134,
+                            "TNS": -204
+                        },
+                        "reg2out": {
+                            "WNS": -2.034,
+                            "NVP": 1304,
+                            "TNS": -3004
+                        }
+                    }
+                ],
+                "img": [
+                    {
+                        "route": "https://img0.baidu.com/it/u=3513761006,2427970649&fm=26&fmt=auto&gp=0.jpg"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "CPU": {
+            "version2": {
+                "owner": "zhangsan",
+                "date": "2021/08/16 21:41",
+                "basic_information": [
+                    {
+                        "stage": "postRoute",
+                        "stdNum": 1105,
+                        "memNum": 1205,
+                        "macroNum": 1305,
+                        "stdArea": 2105,
+                        "memArea": 2205,
+                        "macroArea": 2305,
+                        "stdUti": "55%",
+                        "designUti": " 65%"
+                    }
+                ],
+                "vt_ratio": [
+                    {
+                        "stage": "postRoute",
+                        "24P96CPD": "1%",
+                        "20P96CPD": "1%",
+                        "16P96CPD": "1%",
+                        "24P96CPDLVT": "1%",
+                        "20P96CPDLVT": "1%",
+                        "16P96CPDLVT": "2%",
+                        "24P96CPDULVT": "1%",
+                        "20P96CPDULVT": "1%",
+                        "16P96CPDULVT": "1%"
+                    }
+                ],
+                "timing_information": [
+                    {
+                        "stage": "postRoute",
+                        "reg2reg": {
+                            "WNS": -0.155,
+                            "NVP": 1305,
+                            "TNS": -10.65
+                        },
+                        "in2reg": {
+                            "WNS": -1.025,
+                            "NVP": 135,
+                            "TNS": -205
+                        },
+                        "reg2out": {
+                            "WNS": -2.035,
+                            "NVP": 1305,
+                            "TNS": -3005
+                        }
+                    }
+                ]
+            }
+        }
+    }
+]

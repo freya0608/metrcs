@@ -1,7 +1,7 @@
 {
     "CPU": {
         "version1": {
-            "table1": [
+            "basic_information": [
                 {
                     "stage": "s1",
                     "stdNum": 100,
@@ -25,7 +25,7 @@
                     "designUti": 1050
                 }
             ],
-            "table2": [
+            "vt_ratio": [
                 {
                     "stage": "s1",
                     "vt1": 100,
@@ -63,7 +63,7 @@
                     "vt9": 130
                 }
             ],
-            "table3": [
+            "timing_information": [
                 {
                     "stage": "s1",
                     "group1": {
@@ -125,7 +125,7 @@
             ]
         },
         "version2": {
-            "table1": [
+            "basic_information": [
                 {
                     "stage": "s1",
                     "stdNum": 100,
@@ -160,7 +160,7 @@
                     "designUti": 1000
                 }
             ],
-            "table2": [
+            "vt_ratio": [
                 {
                     "stage": "s1",
                     "vt1": 100,
@@ -198,7 +198,7 @@
                     "vt9": 130
                 }
             ],
-            "table3": [
+            "timing_information": [
                 {
                     "stage": "s1",
                     "group1": {
@@ -240,7 +240,7 @@
     },
     "DSP": {
         "version1": {
-            "table1": [
+            "basic_information": [
                 {
                     "stage": "s1",
                     "stdNum": 100,
@@ -275,7 +275,7 @@
                     "designUti": 1000
                 }
             ],
-            "table2": [
+            "vt_ratio": [
                 {
                     "stage": "s1",
                     "vt1": 100,
@@ -313,7 +313,7 @@
                     "vt9": 130
                 }
             ],
-            "table3": [
+            "timing_information": [
                 {
                     "stage": "s1",
                     "group1": {
@@ -353,7 +353,7 @@
             ]
         },
         "version2": {
-            "table1": [
+            "basic_information": [
                 {
                     "stage": "s1",
                     "stdNum": 100,
@@ -388,7 +388,7 @@
                     "designUti": 1000
                 }
             ],
-            "table2": [
+            "vt_ratio": [
                 {
                     "stage": "s1",
                     "vt1": 100,
@@ -426,7 +426,7 @@
                     "vt9": 130
                 }
             ],
-            "table3": [
+            "timing_information": [
                 {
                     "stage": "s1",
                     "group1": {
@@ -466,7 +466,7 @@
             ]
         },
         "version3": {
-            "table1": [
+            "basic_information": [
                 {
                     "stage": "s1",
                     "stdNum": 100,
@@ -501,7 +501,7 @@
                     "designUti": 1000
                 }
             ],
-            "table2": [
+            "vt_ratio": [
                 {
                     "stage": "s1",
                     "vt1": 100,
@@ -539,7 +539,7 @@
                     "vt9": 130
                 }
             ],
-            "table3": [
+            "timing_information": [
                 {
                     "stage": "s1",
                     "group1": {
