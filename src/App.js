@@ -173,7 +173,7 @@ class App extends React.Component {
       if (key !== 'stage') {
         _.map(_.keys(design_version[0]['timing_information'][0][key]), (child, idx) => {
           col_obj['children'].push({
-            title: key + child,
+            title: child,
             dataIndex: key + child,
             className: idx == 0 ? "colStyle" : '',
             key: key + child,
